@@ -6,7 +6,7 @@ var canvas = document.getElementById('canvas'),
     ctx = canvas.getContext('2d');
 function modelToView(x,y){
     return {
-        x:y*BLOCK_W,
+        x:x*BLOCK_W,
         y:y*BLOCK_H
     };
 }
